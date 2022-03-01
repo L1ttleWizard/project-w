@@ -1,8 +1,14 @@
 body {
     margin: 0;
+    background-image: url("background.png");
+    width:auto;
+    height: auto;
+    min-width: fit-content;
+    background-attachment: fixed;
 }
 
 .header {
+    background-attachment: fixed;
     
 
 }
