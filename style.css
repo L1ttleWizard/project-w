@@ -10,15 +10,41 @@ body {
 
 .header {
     background-attachment: fixed;
-    
-
+    width: 980px;
+    height: 120px;
+    margin-left:320px;
 }
 
 .container {
-    width: 980px;
-    margin-left: auto;
-    margin-right: auto;
+    display:flex;
+    flex-direction: row;
+    text-transform: uppercase;
+}
+.container div{margin-right: 30px;}
+.menu{
+    display:flex;
+    margin: 10px;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+.menu ul{
+    display:flex;
+    list-style-type:none;
+    color: #808080;
+    font-size: 15px;
+    text-transform: uppercase;
 
 
-
+}
+.menu li{
+    margin-right: 40px;
+}
+.header-text{
+    font-family: Open-Sans, sans-serif;
+    color: #957B5F;
+    font-size: 22px;
+}
+.box-logo{
+    color:#957B5F;
+    font-size: 22px; 
 }
