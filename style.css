@@ -1,6 +1,9 @@
 body {
     margin: 0;
     background-image: url("background.png");
+    background-position: 0px -30px;
+    background-repeat: no-repeat;
+    background-size: 120%;
     background-size: cover;
     width: auto;
     height: auto;
