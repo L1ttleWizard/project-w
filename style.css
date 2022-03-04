@@ -9,15 +9,18 @@ body {
     font-family: 'Open Sans', sans-serif;
     
 }
-.main{
 
-}
 .header {
     display: flex;
     background-attachment: fixed;
     height: 120px;
     margin-left:auto;
     margin-right: auto;
+    
+}
+
+.active a {
+    color:#957B5F;
     
 }
 
@@ -75,7 +78,8 @@ main {
     color:#957B5F;
     font-size: 22px; 
 }
-.box-logo p{position: relative;
+.box-logo p{
+    position: relative;
     top: -10px;
     right: auto;
     font-weight: bold;
@@ -130,6 +134,9 @@ main {
     color: #D5D5D5;
     margin-top: 60px;
 }
+.active{
+    color: #808080 !important;
+}
 
 
 
@@ -176,7 +183,9 @@ footer a {
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
 }
+
 
 .contact {
     margin-left: 50px;
@@ -195,23 +204,75 @@ footer a {
 
 
 input {
-    
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
     background-color: #2b2b2b;
     border: none;
+    color:white;
 }
 
 .form-content {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .form-content a {
     height: 30px;
     font-size: 15px;
     padding: 8px 15px;
-    border: #D5D5D5 solid 1px;
-    background: linear-gradient();
+    background:linear-gradient(to bottom, #C6A47E ,#957B5F ) no-repeat;
+    padding-top: auto;
+    padding-bottom: auto;
+    height:30px;
+    width:fit-content;
+    color: white;
+}
+.copyright{
+    display:flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin-bottom: 30px;
+    
+}
+.social-block{
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+.copyright p{
+    display: block;
+    margin-top: auto;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+
+}
+.flexx{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+}
+.big-number{
+    color: #957B5F;
+    font-size: 120px;
+}
+.wide-date{
+    color:#d5d5d5;
+    display: block;
+    margin-bottom: 35px;
+    
+    display: block;
+    text-align: center;
+    
+}
+.read{
+    margin-top: 120px;
+    display: block;
+    margin-bottom: 140px;
+}
+.te{
+    display: block;
+    text-align: center;
 }

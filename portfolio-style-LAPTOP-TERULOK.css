@@ -1,0 +1,28 @@
+
+body{
+    background:#2b2b2b;
+}
+.menu li:nth-child(2) a{
+    color: #808080;
+}
+.t-project{
+    margin-bottom: 50px;
+    margin-top: 115px;
+}
+.main-block{
+    display:flex;
+    flex-direction: column;
+}
+.main-block img{
+    margin-bottom: 15px;
+}
+.main-block img:last-child{
+    margin-bottom: 0;
+}
+.box-logo{
+    
+}
+.box-logo a{
+    color:#957B5F;
+    text-decoration: inherit; 
+}
