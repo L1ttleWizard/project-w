@@ -1,58 +1,74 @@
-body{
-    background:#2b2b2b;
+body {
+    background: #2b2b2b;
 }
-.wide-date{
+
+.wide-date {
     text-align: left;
 }
-.project-3,.project-2,.project-1{justify-content:flex-start;align-items:flex-start}
-.content{
-    margin-left:60px ;
-    
+
+.project-3,
+.project-2,
+.project-1 {
+    justify-content: flex-start;
+    align-items: flex-start
 }
-.wide-date{
+
+.content {
+    margin-left: 60px;
+
+}
+
+.wide-date {
     margin-bottom: 0px;
 }
-.text{
+
+.text {
     margin-top: 0;
-    
-    height:auto;
+
+    height: auto;
     word-wrap: break-word;
 }
-.mail-info{
+
+.mail-info {
     margin: 0;
 }
-.box-logo a{
-    color:#957B5F;
-    text-decoration: inherit; 
+
+.box-logo a {
+    color: #957B5F;
+    text-decoration: inherit;
 }
-.about{
-    display:flex;
-    flex-direction:row;
+
+.about {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin-top: 100px;
-    height:auto;
-     
-    
+    height: auto;
+
+
 }
-.head-text{
-    display:block;
-    margin:0;
+
+.head-text {
+    display: block;
+    margin: 0;
     text-decoration: none;
-    margin-top:0;
+    margin-top: 0;
 }
-.about .text{
+
+.about .text {
     display: block;
     margin-top: auto;
     margin-bottom: auto;
-    height:max-content;
-    width:max-content;
-    word-wrap:break-word;
+    height: max-content;
+    width: max-content;
+    word-wrap: break-word;
 }
-.up{
+
+.up {
     display: block;
     margin-right: auto;
     margin-bottom: auto;
-    
-    
-    
+
+
+
 }
