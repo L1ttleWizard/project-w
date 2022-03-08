@@ -11,7 +11,7 @@ body{
     display:flex;
     flex-direction: column;
 }
-.main-block img{
+.main-block a,.main-block a{
     margin-bottom: 15px;
 }
 .main-block img:last-child{
@@ -24,3 +24,4 @@ body{
     color:#957B5F;
     text-decoration: inherit; 
 }
+

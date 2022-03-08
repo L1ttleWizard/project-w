@@ -1,0 +1,58 @@
+body{
+    background:#2b2b2b;
+}
+.wide-date{
+    text-align: left;
+}
+.project-3,.project-2,.project-1{justify-content:flex-start;align-items:flex-start}
+.content{
+    margin-left:60px ;
+    
+}
+.wide-date{
+    margin-bottom: 0px;
+}
+.text{
+    margin-top: 0;
+    
+    height:auto;
+    word-wrap: break-word;
+}
+.mail-info{
+    margin: 0;
+}
+.box-logo a{
+    color:#957B5F;
+    text-decoration: inherit; 
+}
+.about{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 100px;
+    height:auto;
+     
+    
+}
+.head-text{
+    display:block;
+    margin:0;
+    text-decoration: none;
+    margin-top:0;
+}
+.about .text{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    height:max-content;
+    width:max-content;
+    word-wrap:break-word;
+}
+.up{
+    display: block;
+    margin-right: auto;
+    margin-bottom: auto;
+    
+    
+    
+}

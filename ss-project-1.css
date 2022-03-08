@@ -1,0 +1,48 @@
+.box-logo a{
+    text-decoration: inherit;
+    color:inherit;
+    text-decoration: none;
+}
+
+body{
+    background:#2b2b2b;
+}
+.content-project-1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+    
+}
+.head-text{
+    color:#957B5F;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 0;}
+.content-text{max-width: 480px;
+    margin-top: 0;
+}
+.wide-date{
+    text-align: left;
+}
+.city{
+    display: block;
+    color:#d5d5d5;
+    margin:0;
+    padding: 0;
+}
+.pr{
+    margin-bottom: 80px;
+}
+.pr a{
+    text-decoration: none;
+    padding:0;
+}
+.contaier img{
+    margin-top:100px;
+}
+    margin-top: 100px;
+}
